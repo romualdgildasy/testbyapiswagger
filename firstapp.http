@@ -1,0 +1,49 @@
+@firstapp_HostAddress = https://localhost:7183
+
+GET {{firstapp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{firstapp_HostAddress}}/weatherforecast
+
+###
+
+GET {{firstapp_HostAddress}}/api/superhero
+
+###
+
+GET {{firstapp_HostAddress}}/api/superhero
+
+###
+
+GET {{firstapp_HostAddress}}/api/superhero
+
+###
+
+POST {{firstapp_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
+
+POST {{firstapp_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
+
+POST {{firstapp_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
